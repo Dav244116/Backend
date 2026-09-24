@@ -1,12 +1,15 @@
 {
   "name": "godden-tech-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.21.2"
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
